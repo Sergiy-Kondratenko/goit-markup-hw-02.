@@ -1,0 +1,143 @@
+body {
+  background: #e5e5e5;
+  color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* Logo header */
+.logo-header {
+  font-family: Raleway;
+  color: #2196f3;
+  font-size: 26px;
+  line-height: 31px;
+  font-weight: 700;
+}
+
+/* page header */
+.page-header {
+  background: #ffffff;
+}
+ul {
+  list-style: none;
+}
+.sate-nav a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.sate-nav .link-current {
+  color: #2196f3;
+  background: #ffffff;
+}
+.sate-nav .link:hover,
+.sate-nav .link:focus {
+  color: #2196f3;
+}
+
+.title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* section-hero */
+.section-hero {
+  background: #2f303a;
+  text-align: center;
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+}
+
+/* section button */
+.button {
+  background: #f5f4fa;
+  color: #212121;
+}
+.button-current {
+  background: #2196f3;
+  color: #ffffff;
+}
+.button-hero {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  background: #2196f3;
+  color: #ffffff;
+  left: 700px;
+  top: 430px;
+  position: absolute;
+}
+/* section-title */
+.section-title {
+  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* section-main */
+.section-main {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: #212121;
+}
+
+/* section-img */
+.section-img {
+  width: 370px;
+  height: 294px;
+}
+
+/*name  */
+.name {
+  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+/* footer logo */
+.logo-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #2196f3;
+}
+.footer {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  /* left: 0px;
+  top: 1628px; */
+  background: #2f303a;
+}
+.address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
