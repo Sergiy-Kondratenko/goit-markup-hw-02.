@@ -29,6 +29,24 @@ body {
   background: var(--white-color);
 }
 
+.link {
+  text-decoration: solid;
+}
+
+.nav {
+  text-decoration: solid;
+  color: var(--primaty-text-color);
+}
+.nav-foter {
+  text-decoration: solid;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.nav-current {
+  color: var(--accent-color);
+  background: var(--white-color);
+}
+
 .sate-nav,
 .list {
   font-weight: 500;
@@ -42,6 +60,7 @@ body {
 .auth-nav {
   list-style: none;
   letter-spacing: 0.02em;
+  text-decoration: solid;
 }
 .sate-nav .link-current {
   color: var(--accent-color);
@@ -118,11 +137,19 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--primaty-text-color);
+  text-decoration: solid;
 }
 .text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primaty-text-color);
+}
+
+.text-portfolio {
+  font-size: 16px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--primaty-text-color);
 }
